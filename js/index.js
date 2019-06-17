@@ -36,6 +36,33 @@ const siteContent = {
     "copyright" : "Copyright Great Idea! 2018"
   },
 };
+// Nav
+const nav = document.querySelector('nav');
+const navlinks = document.querySelectorAll('nav a');
+navlinks[0].textContent = siteContent['nav']['nav-item-1'];
+navlinks[1].textContent = siteContent['nav']['nav-item-2'];
+navlinks[2].textContent = siteContent['nav']['nav-item-3'];
+navlinks[3].textContent = siteContent['nav']['nav-item-4'];
+navlinks[4].textContent = siteContent['nav']['nav-item-5'];
+navlinks[5].textContent = siteContent['nav']['nav-item-6'];
+
+// cta
+const cta = document.querySelector('cta');
+const h1 = document.querySelector('h1');
+h1.textContent = siteContent["cta"]["h1"];
+const button = document.querySelector('button');
+button.textContent = siteContent["cta"]["button"];
+const ctaimg = document.getElementById('cta-img');
+ctaimg.setAttribute('src', siteContent["cta"]["img-src"]);
+
+
+// main-content 
+const maincontent = document.querySelector('main-content');
+const textcontent= document.querySelectorAll('text-content');
+h4[0].textContent = siteContent["main-content"]["features-h4"];
+// contact 
+
+// footer 
 
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
